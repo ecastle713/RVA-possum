@@ -206,12 +206,12 @@ function drawPossumDead(ctx,cx,feetY,p){
    WORLD — palette pulled straight from the approved mockup
    ========================================================= */
 /* ---- twilight sky: pixel color bands + restrained dither, prerendered
-   once to an offscreen canvas. Deep indigo up top (HUD contrast) through
-   magenta to warm coral at the horizon. ---- */
+   once to an offscreen canvas. Soft violet up top (HUD contrast) through
+   rose to warm peach at the horizon; warm bands ride high. ---- */
 const SKY_BANDS=[
-  ['#221d52',22],['#2d2060',12],['#3b2369',11],['#4c276e',10],
-  ['#602c70',10],['#763468',9],['#8f3e63',9],['#a94b5e',9],
-  ['#c25c59',9],['#d76f58',9],['#e88760',9],['#f4a06a',21]
+  ['#332e6e',14],['#403179',10],['#4e3583',9],['#5e3a86',9],
+  ['#734085',9],['#8a477c',9],['#a35275',10],['#bc606f',11],
+  ['#d1726a',11],['#e2856b',11],['#f09b74',12],['#f9b37e',25]
 ];
 let skyCv=null;
 function buildSky(){
